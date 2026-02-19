@@ -146,20 +146,20 @@
         }
 
         // Typing Effect logic
+// Typing Effect logic - Ekdum 2 second ke gap wala settings
 var typed = new Typed(".typing", {
     strings: ["Software Developer", "Python Developer", "Problem Solver"],
-    typeSpeed: 30,      
-    backSpeed: 20,      
-    startDelay: 200,   
-    backDelay: 600,     
-    loop: true,
-    showCursor: true,  
-    cursorChar: '|'
+    typeSpeed: 40,      // Word fatafat likha jayega
+    backSpeed: 20,      // Word fatafat mitega
+    backDelay: 2000,    // <--- Ye hai 2 second ka gap! Word likhne ke baad 2 sec rukega.
+    startDelay: 500,    // Shuru hone se pehle ka chota sa gap
+    loop: true
 });
     </script>
 
 </body>
 </html>
+
 
 
 
