@@ -146,16 +146,20 @@
         }
 
         // Typing Effect logic
-        var typed = new Typed(".typing", {
-            strings: ["Software Developer", "Python Developer", "Problem Solver",],
-            typeSpeed: 100,
-            backSpeed: 30,
-            backDelay: 800,
-            loop: true
-        });
+var typed = new Typed(".typing", {
+    strings: ["Software Developer", "Python Developer", "Problem Solver"],
+    typeSpeed: 30,      
+    backSpeed: 20,      
+    startDelay: 200,   
+    backDelay: 600,     
+    loop: true,
+    showCursor: true,  
+    cursorChar: '|'
+});
     </script>
 
 </body>
 </html>
+
 
 
