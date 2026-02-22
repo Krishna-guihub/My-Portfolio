@@ -471,12 +471,19 @@ a{
     transform: translateY(-90%) !important; 
 }
 .bar-progress {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    color: white; 
+    height: 100%;
+    background-color: #7cf03d; 
+    
+    display: flex;            
+    align-items: center;     
+    justify-content: center;   
+    
+    color: #000;
     font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
 }
+
 
 
 
