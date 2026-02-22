@@ -6,7 +6,6 @@
     <title>Krishna Patil - Portfolio</title>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
 
@@ -46,7 +45,7 @@
             <div class="skills-list">
                 <div class="skill-item">
                     <span>HTML, CSS, JS</span>
-                   <div class="progress-bar" style="width:70%">70%</div>
+                    <div class="bar-container"><div class="bar-progress" style="width: 85%;">85%</div></div>
                 </div>
                 <div class="skill-item">
                     <span>Web Development</span>
@@ -82,8 +81,8 @@
             <h2 class="popup-title">My Projects</h2>
             <div class="projects-info">
                 <p><i class='bx bxs-microphone'></i> <strong>Voice Assistant</strong> (Python)</p>
-                <p><i class='bx bxs-calculator'></i> <strong>AgriSmart-Hub</strong> (HTML,CSS,JS)</strong></p>
-                <p><i class='bx bxs-bolt'></i> <strong>Neo-Quiz-Sprint</strong> (C++)</p>
+                <p><i class='bx bxs-leaf'></i> <strong>AgriSmart-Hub</strong> (HTML,CSS,JS)</p>
+                <p><i class='bx bxs-brain'></i> <strong>Neo-Quiz-Sprint</strong> (C++)</p>
             </div>
             <button class="close-btn" onclick="togglePopup('projects-popup')">Close</button>
         </div>
@@ -128,8 +127,6 @@
         </div>
     </section>
 
-<!-- 
-    WELCOME SCREEN HERE -->
     <script>
         // Welcome Screen Function
         function enterSite() {
@@ -145,13 +142,12 @@
             document.getElementById(id).classList.toggle('active');
         }
 
-        // Typing Effect logic
-
-// Typing Effect logic - Ek gaya, doosra aaya!
-var typed = new Typed(".typing", {
-            strings: ["Software Developer", "Python Developer", "Problem Solver",],
+        // Typing Effect logic - Ek gaya, doosra aaya!
+        var typed = new Typed(".typing", {
+            strings: ["Software Developer", "Python Developer", "Problem Solver"],
             typeSpeed: 100,
             backSpeed: 60,
+            backDelay: 1200,
             loop: true
         });
     </script>
