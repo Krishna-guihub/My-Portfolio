@@ -6,6 +6,7 @@
     <title>Krishna Patil - Portfolio</title>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
 
@@ -128,7 +129,6 @@
     </section>
 
     <script>
-        // Welcome Screen Function
         function enterSite() {
             const welcome = document.getElementById('welcome-screen');
             welcome.classList.add('welcome-hidden');
@@ -137,12 +137,10 @@
             }, 800);
         }
 
-        // Popup toggle logic
         function togglePopup(id) {
             document.getElementById(id).classList.toggle('active');
         }
 
-        // Typing Effect logic - Ek gaya, doosra aaya!
         var typed = new Typed(".typing", {
             strings: ["Software Developer", "Python Developer", "Problem Solver"],
             typeSpeed: 100,
@@ -154,6 +152,7 @@
 
 </body>
 </html>
+
 
 
 
