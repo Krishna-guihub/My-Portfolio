@@ -470,5 +470,13 @@ a{
 .welcome-hidden {
     transform: translateY(-90%) !important; 
 }
+  .bar-progress {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
 
 
